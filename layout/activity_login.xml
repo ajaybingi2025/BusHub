@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#B1E6FD">
+
+    <ImageView
+        android:id="@+id/hamburgerMenu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/buslogo"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/company_name"
+        android:text="BusHub"
+        android:textSize="48dp"
+        android:textAlignment="center"
+        android:layout_marginTop="35dp"
+        android:textColor="#0A196C"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/company_quote"
+        android:text="'Travel with ease wherever you go'"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#2F3233"
+        android:textStyle="italic"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/usernameEditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_marginTop="55dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/passwordEditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="30px"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Login"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#056D9C"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/signupTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="16dp"
+        android:text="Don't have an account? Sign up!"
+        android:textColor="#0000FF"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
+

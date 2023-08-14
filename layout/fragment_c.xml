@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c"
+    android:background="#B1E6FD"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/offers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="#0A196C"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ajay"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" NAME: BINGI AJAY (21BCE8758)  "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#2F3233"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_margin="10dp">
+
+
+        <TextView
+            android:id="@+id/history_war"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="  Email: ajaybingi17@gmail.com  "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#2F3233"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_margin="10dp">
+
+
+        <TextView
+            android:id="@+id/history_goa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="  Address: VIT-AP University, Inavolu, Beside AP secretatiat, Amaravati, Andhra Pradesh, 522237  "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#2F3233"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_margin="10dp">
+
+
+        <TextView
+            android:id="@+id/history_ban"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" Phone: 7981366357"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#2F3233"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

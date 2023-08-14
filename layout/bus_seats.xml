@@ -1,0 +1,341 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B1E6FD">
+
+    <ImageView
+        android:id="@+id/hamburgerMenu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/buslogo"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bangalore"
+        android:text="Kindly select your seats"
+        android:textSize="32dp"
+        android:textAlignment="center"
+        android:textColor="#0A196C"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#ffffff"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timings1"
+        android:text="Fare: Rs. 500"
+        android:textSize="25dp"
+        android:textColor="#2F3233"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="#ffffff"/>
+
+    <!-- Row 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <CheckBox
+            android:id="@+id/seat1_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <Space
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/seat2_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/seat3_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <Space
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/seat4_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+    <!-- Row 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <CheckBox
+            android:id="@+id/seat5_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <Space
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/seat6_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/seat7_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <Space
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/seat8_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <!-- Row 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <CheckBox
+            android:id="@+id/seat9_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <Space
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/seat10_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/seat11_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <Space
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/seat12_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <!-- Row 4 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <CheckBox
+            android:id="@+id/seat13_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <Space
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/seat14_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/seat15_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <Space
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/seat16_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <!-- Row 5 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <CheckBox
+            android:id="@+id/seat17_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <Space
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/seat18_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/seat19_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <Space
+            android:layout_width="16dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/seat20_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY="2.5"
+            android:scaleX="2.5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/confirm_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Selection"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:height="55dp"
+        android:width="170dp"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#056D9C"
+        android:layout_marginTop="35dp"/>
+
+</LinearLayout>

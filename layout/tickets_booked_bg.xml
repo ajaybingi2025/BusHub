@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#B1E6FD">
+
+    <TextView
+        android:id="@+id/selectionText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BusHub"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#0A196C"
+        android:background="#ffffff"
+        android:layout_marginTop="45dp"/>
+
+    <TextView
+        android:id="@+id/checkBoxSelections1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:paddingTop="8dp"
+        android:layout_marginTop="100dp"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:textColor="#2F3233"/>
+
+    <Button
+        android:id="@+id/seat_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#056D9C"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
