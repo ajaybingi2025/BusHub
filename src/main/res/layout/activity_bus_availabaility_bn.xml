@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B1E6FD">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Available Busses"
+        android:textColor="#0A196C"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/hamburgerMenu"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/volvo"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/volvo_bn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Volvo AC            9am-2.30pm"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#2F3233"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/garuda"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/garuda_bn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Garuda                         7am-12.00pm"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#2F3233"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/rajadhani"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/rajadhani_bn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Rajadhani                 6am-11.15am"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#2F3233"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/superluxury"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/superluxury_bn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Super Luxury                 6am-11.15am"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#2F3233"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BusHub"
+        tools:targetApi="31">
+        <activity
+            android:name=".PaymentSucessful"
+            android:exported="true"/>
+        <activity
+            android:name=".upi"
+            android:exported="true"/>
+        <activity
+            android:name=".payment"
+            android:exported="true"/>
+        <activity
+            android:name=".BookedTicketsGen"
+            android:exported="true"/>
+        <activity
+            android:name=".BusSeatsGen"
+            android:exported="true"/>
+        <activity
+            android:name=".BusAvailability"
+            android:exported="true"/>
+        <activity
+            android:name=".location"
+            android:exported="true"/>
+        <activity
+            android:name=".BookedTicketsWar"
+            android:exported="true"/>
+        <activity
+            android:name=".BookedTicketsBg"
+            android:exported="true"/>
+        <activity
+            android:name=".BookedTickets"
+            android:exported="true"/>
+        <activity
+            android:name=".BusSeatsWar"
+            android:exported="true"/>
+
+        <activity
+            android:name=".BusSeatsBg"
+            android:exported="true"/>
+
+        <activity
+            android:name=".BusSeats"
+            android:exported="true"/>
+
+        <activity
+            android:name=".BusAvailabilityHyd"
+            android:exported="true"/>
+
+        <activity
+            android:name=".BusAvailabilityBn"
+            android:exported="true"/>
+
+        <activity
+            android:name=".BusAvailabiltyWar"
+            android:exported="true"/>
+
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

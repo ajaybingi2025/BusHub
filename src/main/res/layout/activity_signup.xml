@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#B1E6FD">
+
+    <ImageView
+        android:id="@+id/hamburgerMenu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/buslogo"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/company_name1"
+        android:text="BusHub"
+        android:textSize="48dp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#0A196C"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/company_quote1"
+        android:text="'Travel with ease wherever you go'"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#2F3233"
+        android:textStyle="italic"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/signupEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email ID"
+        android:layout_marginTop="58dp"
+        android:textColor="#000000"/>
+
+
+    <EditText
+        android:id="@+id/signupUsernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Set Username"
+        android:layout_marginTop="30px"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/signupPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Set Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="30px"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Sign Up"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#056D9C"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/loginTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="16dp"
+        android:text="Already have an account? Login!"
+        android:textColor="#0000FF"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
+
